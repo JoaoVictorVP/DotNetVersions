@@ -1,10 +1,11 @@
 # DotNetVersions
 
-##Versions
+## Versions
 .NET Framework 4.8
 .NET Core 2.0 | 3.1
 .NET 5.0 | 6.0 | ?
 Mono | MonoAOTLLVM
+
 -------
 ## Setup
 To be able to execute the benchmarks, you must install all these frameworks.
