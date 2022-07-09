@@ -16,6 +16,7 @@ You can get them here:
   [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 
   [Mono](https://www.mono-project.com/download/stable/)
   [LLVM](https://github.com/llvm/llvm-project/releases/tag/llvmorg-14.0.6)
+Ensure "SampleText.txt" file present in bin outputs of each project
   
 ## Running
 To run, you should build and execute the console project
