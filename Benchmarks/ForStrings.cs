@@ -111,5 +111,16 @@ namespace DotNetVersions.Benchmarks
         {
             return string.Concat(toConcat);
         }
+
+        [Benchmark]
+        public string ToUpper()
+        {
+            return text.ToUpper();
+        }
+        [Benchmark]
+        public string ToLower()
+        {
+            return text.ToLower();
+        }
     }
 }
