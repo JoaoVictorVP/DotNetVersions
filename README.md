@@ -22,3 +22,7 @@ To be able to run Mono with AOT and LLVM you will need to install both Mono, LLV
 To run, you should build and execute the console project
 To build you can use the 'build.cmd' script
 To run you can use the 'run-benchmarks.cmd' script
+
+-------
+Results:
+[For Strings](https://github.com/JoaoVictorVP/DotNetVersions/blob/master/Results/DotNetVersions.Benchmarks.ForStrings.md)
