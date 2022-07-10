@@ -1,5 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Jobs;
+using BenchmarkDotNet.Order;
 using DotNetVersions.Assets;
 using System;
 using System.Collections.Generic;
@@ -10,15 +12,7 @@ using System.Threading.Tasks;
 
 namespace DotNetVersions.Benchmarks
 {
-    [MemoryDiagnoser]
-    [SimpleJob(RuntimeMoniker.Net48)]
-    [SimpleJob(RuntimeMoniker.CoreRt31)]
-    [SimpleJob(RuntimeMoniker.Net50)]
-    [SimpleJob(RuntimeMoniker.Net60)]
-    [SimpleJob(RuntimeMoniker.Mono)]
-    [SimpleJob(RuntimeMoniker.HostProcess)]
-    [HtmlExporter, MarkdownExporterAttribute.GitHub]
-    public class ForStrings
+    public class ForStrings : BaseBenchmark
     {
         private readonly string text;
         private readonly int textSize;
