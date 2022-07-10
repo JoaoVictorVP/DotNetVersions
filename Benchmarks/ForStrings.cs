@@ -14,14 +14,26 @@ namespace DotNetVersions.Benchmarks
 {
     public class ForStrings : BaseBenchmark
     {
+        public const int AddCount = 10000;
+        public const int ConcatCount = 100;
+
         private readonly string text;
         private readonly int textSize;
         private readonly string[] splitWith = new string[] { "tincidunt" };
+        private readonly string[] toConcat;
 
         public ForStrings()
         {
             text = SampleText.Text;
             textSize = text.Length;
+            toConcat = BuildToConcat();
+        }
+        string[] BuildToConcat()
+        {
+            string[] toConcat = new string[ConcatCount];
+            for (int i = 0; i < ConcatCount; i++)
+                toConcat[i] = text;
+            return toConcat;
         }
 
         [Benchmark]
@@ -83,6 +95,21 @@ namespace DotNetVersions.Benchmarks
             for (int i = 0; i < textSize; i++)
                 sum += textSpan[i];
             return sum;
+        }
+
+        [Benchmark]
+        public string StringAdd()
+        {
+            string result = "";
+            for (int i = 0; i < AddCount; i++)
+                result += text;
+            return result;
+        }
+
+        [Benchmark]
+        public string StringConcat()
+        {
+            return string.Concat(toConcat);
         }
     }
 }
