@@ -14,7 +14,7 @@ namespace DotNetVersions.Benchmarks
 {
     public class ForStrings : BaseBenchmark
     {
-        public const int AddCount = 10000;
+        public const int AddCount = 100;
         public const int ConcatCount = 100;
 
         private readonly string text;
