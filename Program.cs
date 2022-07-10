@@ -1,6 +1,13 @@
 ﻿using BenchmarkDotNet.Running;
 using DotNetVersions.Benchmarks;
+using System;
 
-Console.WriteLine("Benchmark for .NET versions");
+public class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Benchmark for .NET versions");
 
-BenchmarkRunner.Run<ForStrings>();
+        BenchmarkRunner.Run<ForStrings>();
+    }
+}
