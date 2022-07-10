@@ -1,4 +1,12 @@
-﻿Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ullamcorper viverra. Curabitur quis leo vitae eros lacinia mattis. Praesent quis elit at felis varius ornare. In non venenatis odio. Cras hendrerit massa in nisi aliquet congue. Fusce malesuada sagittis sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam suscipit nisi et sapien placerat, non ullamcorper tortor faucibus. Integer lobortis purus at felis ornare imperdiet. Phasellus iaculis egestas magna at luctus. Suspendisse potenti. Aenean et pharetra nisl.
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DotNetVersions.Assets
+{
+    public static class SampleText
+    {
+        public static string Text = @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ullamcorper viverra. Curabitur quis leo vitae eros lacinia mattis. Praesent quis elit at felis varius ornare. In non venenatis odio. Cras hendrerit massa in nisi aliquet congue. Fusce malesuada sagittis sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam suscipit nisi et sapien placerat, non ullamcorper tortor faucibus. Integer lobortis purus at felis ornare imperdiet. Phasellus iaculis egestas magna at luctus. Suspendisse potenti. Aenean et pharetra nisl.
 
 Curabitur molestie lacinia ligula, eget vulputate nibh feugiat sit amet. Nunc sollicitudin nunc id ante malesuada, eget maximus purus commodo. Integer eleifend, ante ut tempus convallis, nunc nisi accumsan tortor, ultricies ullamcorper velit velit ut ex. Morbi accumsan tortor eros, in condimentum odio elementum at. Nulla nec elit viverra, bibendum arcu ultrices, semper sem. Proin iaculis, sapien nec elementum pellentesque, nulla dui dignissim mi, ut placerat nibh neque sed tortor. Aenean id luctus quam. Nulla diam velit, porttitor in condimentum eu, volutpat vitae tortor. Quisque eget ipsum maximus, commodo massa eu, tincidunt tellus. Nulla et mi pretium, mollis sapien eu, faucibus erat. In sed orci a neque varius dapibus nec at mauris. Mauris euismod lectus tellus, quis gravida neque venenatis ut.
 
@@ -56,4 +64,6 @@ Donec eget urna nec arcu placerat congue vitae non sem. Lorem ipsum dolor sit am
 
 Suspendisse viverra suscipit ligula ornare semper. Ut et velit vel mauris posuere sagittis. Curabitur placerat at mauris eget iaculis. Integer nibh urna, consectetur vitae dapibus ac, bibendum non neque. Vestibulum cursus feugiat ullamcorper. Etiam faucibus ultrices tempus. Quisque aliquet blandit lacus id egestas. Donec velit lectus, hendrerit non viverra non, ultrices eget dui. Aenean fringilla non mauris sodales porttitor. Pellentesque ac porttitor augue, vitae pretium arcu. Aliquam malesuada auctor lacinia. Phasellus ac blandit mauris. Vestibulum scelerisque lorem eget viverra hendrerit. Suspendisse eleifend ultricies lorem, nec fringilla neque viverra vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet luctus lorem.
 
-Cras a tortor luctus, sagittis sem sed, sodales quam. Praesent dapibus felis sit amet elit tempor, vel malesuada erat tempor. Duis aliquet sit amet metus id bibendum. Nullam id felis blandit, eleifend ex et, convallis risus. Nunc ultrices convallis ante id consectetur. In hac habitasse platea dictumst. Morbi in turpis et neque ornare aliquam nec eu orci. Vestibulum ullamcorper odio tellus.
+Cras a tortor luctus, sagittis sem sed, sodales quam. Praesent dapibus felis sit amet elit tempor, vel malesuada erat tempor. Duis aliquet sit amet metus id bibendum. Nullam id felis blandit, eleifend ex et, convallis risus. Nunc ultrices convallis ante id consectetur. In hac habitasse platea dictumst. Morbi in turpis et neque ornare aliquam nec eu orci. Vestibulum ullamcorper odio tellus.";
+    }
+}
