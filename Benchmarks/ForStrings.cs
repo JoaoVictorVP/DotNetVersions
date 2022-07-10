@@ -117,6 +117,7 @@ namespace DotNetVersions.Benchmarks
         {
             return text.ToUpper();
         }
+
         [Benchmark]
         public string ToLower()
         {
