@@ -2,8 +2,8 @@
 
 ## Versions
 .NET Framework 4.8
-.NET Core 3.1
-.NET 5.0 | 6.0 | ?
+.NET Core 3.1 | .NET Core RT 3.1
+.NET 5.0 | 6.0 | RT 6.0 | ? (if Host 7.0, then 7.0)
 Mono | MonoAOTLLVM
 
 -------
